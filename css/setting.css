@@ -1,0 +1,55 @@
+.settings .setting__sections {
+  border-top: 1px solid #f7f7f7;
+  padding: 20px 0px;
+}
+
+.settings__btn-list,
+.settings__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.settings__btn-list .settings__btn,
+.settings__list .settings__setting {
+  margin: 20px 0px;
+}
+
+.setting__support {
+  padding-top: 20px;
+  border-top: 1px solid #f7f7f7;
+}
+
+.settings__btn-title,
+.setting_title {
+  font-size: 16px;
+}
+
+.settings__setting,
+.setting__support,
+.settings__btn {
+  display: flex;
+}
+
+.settings__btn-icon1 {
+  margin-right: 20px;
+}
+.settings__btn-icon2 {
+  margin-left: 1px;
+  margin-right: 23px;
+}
+.settings__btn-icon3 {
+  margin-left: 6px;
+  margin-right: 28px;
+}
+
+.settings__setting .setting__icon {
+  margin-right: 20px;
+}
+.settings__setting .setting__iconD {
+  margin-left: 3px;
+  margin-right: 21px;
+}
+.settings__setting .setting__iconT {
+  margin-left: 3px;
+  margin-right: 20px;
+}

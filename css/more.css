@@ -1,0 +1,76 @@
+.more {
+  padding: 0px 10px;
+}
+.more .Friends__friend {
+  border-bottom: 1px solid #f7f7f7;
+}
+
+.more__header .friend__column {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 20px;
+}
+
+.more .more__btn-list {
+  padding: 20px 0px;
+  padding-left: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.more .more__btn,
+.more .suggestion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.more__btn .more__btn-title,
+.more__suggestions .suggestions__tittle {
+  font-size: 14px;
+  margin-top: 14px;
+}
+
+.more .more__suggestions {
+  padding: 20px 0px;
+}
+
+.more .more__title {
+  font-size: 18px;
+  border-top: 1px solid #f7f7f7;
+}
+
+.more .more__suggestions-lsit {
+  display: flex;
+  justify-content: space-between;
+}
+
+.more .suggestions__tittle {
+  opacity: 0.6;
+}
+
+.suggestion .suggestions__icon {
+  background-color: #fce006;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.more__btn-icon {
+  font-size: 28px;
+}
+.suggestions__icon i {
+  font-size: 28px;
+  color: white;
+}
+
+.more__blind .more__btn-blind i {
+  color: white;
+}
+.suggestions__icon.suggestions-blind {
+  color: white;
+}
