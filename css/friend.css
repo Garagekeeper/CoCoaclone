@@ -15,6 +15,7 @@
 
 .message__avatar.m-avatar {
   width: 60px;
+  border-radius: 35%;
 }
 .friends__avatar.m-avatar {
   width: 60px;
